@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Lorem.NET" Version="1.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Sivsivadze.Domain\Sivsivadze.Domain.csproj" />
   </ItemGroup>
 

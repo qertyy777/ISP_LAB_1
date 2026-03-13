@@ -15,9 +15,9 @@ namespace Sivsivadze.Domain
         public DateTime? Deadline { get; private set; }
         public int? EmployeesCount { get; private set; }
         public PriorityTypes? Priority { get; private set; }
-        public float? CompletionPercentage { get; private set; }
+        public int? CompletionPercentage { get; private set; }
 
-        public KaitenTask(DateTime? deadline, int? employeesCount, PriorityTypes? priority, float? completionPercentage)
+        public KaitenTask(DateTime? deadline, int? employeesCount, PriorityTypes? priority, int? completionPercentage)
         {
             Deadline = deadline;
             EmployeesCount = employeesCount;
