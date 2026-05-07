@@ -8,11 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Lorem.NET" Version="1.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.7" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Sivsivadze.Domain\Sivsivadze.Domain.csproj" />
+    <ProjectReference Include="..\Sivsivadze.Features\Sivsivadze.Features.csproj" />
+    <ProjectReference Include="..\Sivsivadze.Mediator\Sivsivadze.Mediator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
